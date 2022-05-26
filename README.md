@@ -14,10 +14,10 @@
 8. Chia   sẻ   thành   tích   cho   bạn   bè  
 9. Thống   kê  
   
-##Yêu cầu thiết bị:
+## Yêu cầu thiết bị:
 - Android
- - minSdkVersion: 27.0
- - targetSdkVersion: 29.0
- - Gradle: 3.5.3 
+  - minSdkVersion: 27.0
+  - targetSdkVersion: 29.0
+  - Gradle: 3.5.3 
   
 Công nghệ và thư viện
