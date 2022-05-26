@@ -24,4 +24,4 @@
 ## Công nghệ và thư viện
 
 ## Database
-
+![DataBase](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/DataBase.PNG))
