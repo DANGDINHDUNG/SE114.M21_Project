@@ -1,5 +1,5 @@
 # SE114.M21_Project
- Phần mềm quản lý thu chi
+## Phần mềm quản lý thu chi
 Ứng dụng dùng để quản lý chi tiêu của một cá nhân
 
 ## Chức năng ứng dụng:
