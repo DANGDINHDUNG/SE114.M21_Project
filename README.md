@@ -6,6 +6,7 @@
 
 - Đăng   ký-Đăng   nhập  
 - Thêm   mới   Thu  
+-  ![Logo TechMaster](https://techmaster.vn/resources/image/logo.png)
 - Thêm   mới   Chi  
 - Xem   lịch   sử   Thu/Chi  
 - Xóa/Sửa   Thu   Chi  
