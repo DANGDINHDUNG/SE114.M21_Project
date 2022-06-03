@@ -14,10 +14,11 @@
 - Phần   thưởng   khi   đăng   nhập   mỗi   ngày  
 - Chia   sẻ   thành   tích   cho   bạn   bè  
 - Thống   kê  
+- Quảng cáo
   
 ## Yêu cầu thiết bị:
 - Android
-  - minSdkVersion: 27.0
+  - minSdkVersion: 16.0
   - targetSdkVersion: 29.0
   - Gradle: 3.5.3 
   
@@ -26,6 +27,7 @@
   - Ngôn ngữ: Java
   - Database: SqLite
 - Thư viện
-
+  - FireBase
+  - ORM
 ## Database
 ![DataBase](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/DataBase.PNG))
