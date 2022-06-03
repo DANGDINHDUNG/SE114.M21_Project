@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".new_expense_in">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="540dp"
+        android:layout_height="340dp"
+        android:layout_marginBottom="464dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/newexpense_background" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="36dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/newexpense_icon" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toEndOf="@+id/imageView20"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421"
+        app:srcCompat="@drawable/new_expense_wite" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="333dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149"
+        app:srcCompat="@drawable/newexpense_topholder" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="104dp"
+        android:layout_height="115dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.479"
+        app:srcCompat="@drawable/debit_card" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="159dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.467"
+        app:srcCompat="@drawable/add_new_expense" />
+
+    <TextView
+        android:id="@+id/Reason_textview"
+        android:layout_width="82dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
+        android:text="Reason"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@id/Type_holder"
+        app:layout_constraintStart_toStartOf="@+id/Type_holder"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <Spinner
+        android:id="@+id/Type_holder"
+        android:layout_width="251dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/Amount_holder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Reason_textview"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/rectangle_19" />
+
+    <ImageView
+        android:id="@+id/Amount_holder"
+        android:layout_width="251dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:srcCompat="@drawable/rectangle_19" />
+
+    <TextView
+        android:id="@+id/Date"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
+        android:text="Date: Unspecified"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@id/Description_holder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.346"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Amount_holder"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/Description_holder"
+        android:layout_width="251dp"
+        android:layout_height="93dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DateButton"
+        app:srcCompat="@drawable/rectangle_25" />
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="96dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/save_btn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Description_holder"
+        app:layout_constraintVertical_bias="0.076"
+        app:srcCompat="@drawable/back_bg" />
+
+    <ImageView
+        android:id="@+id/save_btn"
+        android:layout_width="99dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Description_holder"
+        app:layout_constraintVertical_bias="0.076"
+        app:srcCompat="@drawable/save_bg" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/back_btn"
+        app:layout_constraintEnd_toEndOf="@+id/back_btn"
+        app:layout_constraintStart_toStartOf="@+id/back_btn"
+        app:layout_constraintTop_toTopOf="@+id/back_btn"
+        app:srcCompat="@drawable/back_txt" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/save_btn"
+        app:layout_constraintEnd_toEndOf="@+id/save_btn"
+        app:layout_constraintStart_toStartOf="@+id/save_btn"
+        app:layout_constraintTop_toTopOf="@+id/save_btn"
+        app:srcCompat="@drawable/save" />
+
+    <EditText
+        android:id="@+id/Amount"
+        android:layout_width="188dp"
+        android:layout_height="39dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="Amount"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toBottomOf="@+id/Amount_holder"
+        app:layout_constraintEnd_toEndOf="@+id/Amount_holder"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintStart_toStartOf="@+id/Amount_holder"
+        app:layout_constraintTop_toBottomOf="@+id/Type_holder" />
+
+    <EditText
+        android:id="@+id/Description"
+        android:layout_width="206dp"
+        android:layout_height="81dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="start|fill_horizontal|top"
+        android:hint="                                 Description"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="@+id/Description_holder"
+        app:layout_constraintEnd_toEndOf="@+id/Description_holder"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/Description_holder"
+        app:layout_constraintTop_toTopOf="@+id/Description_holder"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/show_expenses_btn"
+        android:layout_width="55dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toEndOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571"
+        app:srcCompat="@drawable/clock" />
+
+    <TextView
+        android:id="@+id/Note_new_expense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/artifika"
+        android:text="Note: Expense will be automatically deduce from balance"
+        android:textColor="#FFC400"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <TextView
+        android:id="@+id/My_Expenses_descc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bree_serif"
+        android:text="My Expenses"
+        android:textColor="#F6FFFB"
+        app:layout_constraintBottom_toTopOf="@+id/imageView31"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_expenses_btn"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <Button
+        android:id="@+id/DateButton"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:text="Change"
+        app:layout_constraintBottom_toTopOf="@id/Description_holder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/Date"
+        app:layout_constraintTop_toBottomOf="@+id/Amount_holder"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
