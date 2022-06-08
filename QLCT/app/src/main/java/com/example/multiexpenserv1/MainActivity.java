@@ -11,6 +11,9 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,7 +29,11 @@ public class MainActivity extends AppCompatActivity {
         String FirstTime=sharedPreferences.getString("FirstTimeInstalled","");
 
 
-
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
         if(FirstTime.equals("Yes")) {
             startActivity(new Intent(MainActivity.this,Home.class));
             finish();
