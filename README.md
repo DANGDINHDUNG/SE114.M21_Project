@@ -6,10 +6,13 @@
 
 - Đăng   ký-Đăng   nhập  
 ![Dang Ky](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/dang_ky.jpg)
-- Thêm   mới   Thu  
-- Thêm   mới   Chi  
-- Xem   lịch   sử   Thu/Chi  
-- Xóa/Sửa   Thu   Chi  
+- Thêm   mới/Xóa/Sửa   Thu
+![Thu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/thu.jpg)  
+- Thêm   mới/Xóa/Sửa    Chi
+![Chi](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/thu.jpg)    
+- Xem   lịch   sử   Thu
+![LSThu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/lich_su_thu.jpg)  
+- Xem   lịch   sử   Chi  
 - Đặt   ra   mục   tiêu   và   hoàn   thành  
 - Phần   thưởng   khi   đăng   nhập   mỗi   ngày  
 - Chia   sẻ   thành   tích   cho   bạn   bè  
