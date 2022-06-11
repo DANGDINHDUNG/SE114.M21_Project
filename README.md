@@ -4,7 +4,7 @@
 
 ## Chức năng ứng dụng:
 
-- Trang chủ  
+- ##Trang chủ  
 
 ![TrangChu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/trang_chu.jpg)
 
