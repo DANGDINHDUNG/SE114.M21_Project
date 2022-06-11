@@ -4,9 +4,13 @@
 
 ## Chức năng ứng dụng:
 
+- Trang chủ  
+
+![TrangChu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/trang_chu.jpg)
+
 - Đăng   ký-Đăng   nhập  
 
-![Dang Ky](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/dang_ky.jpg)
+![DangKy](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/dang_ky.jpg)
 
 - Thêm   mới/Xóa/Sửa   Thu
 
@@ -62,5 +66,8 @@
 - Thư viện
   - FireBase
   - ORM
+  
 ## Database
 ![DataBase](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/DataBase.PNG))
+
+## Sơ đồ kiến trúc
