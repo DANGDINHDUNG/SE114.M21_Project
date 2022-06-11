@@ -5,13 +5,22 @@
 ## Chức năng ứng dụng:
 
 - Đăng   ký-Đăng   nhập  
+
 ![Dang Ky](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/dang_ky.jpg)
+
 - Thêm   mới/Xóa/Sửa   Thu
+
 ![Thu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/thu.jpg)  
+
 - Thêm   mới/Xóa/Sửa    Chi
+
+
 ![Chi](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/thu.jpg)    
+
 - Xem   lịch   sử   Thu
+
 ![LSThu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/lich_su_thu.jpg)  
+
 - Xem   lịch   sử   Chi  
 - Đặt   ra   mục   tiêu   và   hoàn   thành  
 - Phần   thưởng   khi   đăng   nhập   mỗi   ngày  
