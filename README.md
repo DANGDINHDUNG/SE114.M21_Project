@@ -5,7 +5,7 @@
 ## Chức năng ứng dụng:
 
 - Đăng   ký-Đăng   nhập  
-![Dang Ky](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/dang_ky.JPG)
+![Dang Ky](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/dang_ky.jpg)
 - Thêm   mới   Thu  
 - Thêm   mới   Chi  
 - Xem   lịch   sử   Thu/Chi  
