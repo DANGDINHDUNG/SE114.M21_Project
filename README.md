@@ -30,7 +30,7 @@
 ![MucTieu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/dat_muc_tieu.jpg)  
 
 - Xem   lịch   sử   mục tiêu
-- 
+
 ![LSMucTieu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/muc_tieu.jpg)  
   
 - Phần   thưởng   khi   đăng   nhập   mỗi   ngày  
