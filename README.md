@@ -68,6 +68,6 @@
   - ORM
   
 ## Database
-![DataBase](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/DataBase.PNG))
+![DataBase](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/DataBase.PNG)
 
 ## Sơ đồ kiến trúc
