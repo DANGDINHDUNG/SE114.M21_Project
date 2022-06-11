@@ -6,7 +6,7 @@
 
 - ## Trang chủ  
 
-![TrangChu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/trang_chu.jpg)
+![TrangChu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/trang_chu.png)
 
 - ## Đăng   ký-Đăng   nhập  
 
