@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2235" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/drawable/back_button.xml" value="0.2235" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/drawable/button.xml" value="0.2235" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/drawable/card_background.xml" value="0.2235" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/drawable/congratulations.xml" value="0.2235" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/drawable/edit_text_background.xml" value="0.2235" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/drawable/save_button.xml" value="0.2235" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_balance_in.xml" value="0.264" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_congratulations.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_getting_started_two.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_gifts_in.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_main2.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_my_goals.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_new_expense_in.xml" value="0.25" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_new_goal.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_show_expenses.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_show_expenses_in_details.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_show_expenses_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_show_goals_in_details.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_show_goals_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_show_transactions.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_show_transactions_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_splash_screenv1.xml" value="0.27447916666666666" />
+        <entry key="..\:/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_success.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Admin/source/repos/SE114.M21_Project/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_balance_in.xml" value="0.536" />
+        <entry key="..\:/Users/Admin/source/repos/SE114.M21_Project/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_congratulations.xml" value="0.19067028985507245" />
+        <entry key="..\:/Users/Admin/source/repos/SE114.M21_Project/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_getting_started_two.xml" value="0.19067028985507245" />
+        <entry key="..\:/Users/Admin/source/repos/SE114.M21_Project/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_home.xml" value="0.176" />
+        <entry key="..\:/Users/Admin/source/repos/SE114.M21_Project/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_main2.xml" value="0.184375" />
+        <entry key="..\:/Users/Admin/source/repos/SE114.M21_Project/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_main3.xml" value="0.1265625" />
+        <entry key="..\:/Users/Admin/source/repos/SE114.M21_Project/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_new_expense_in.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/source/repos/SE114.M21_Project/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_show_transactions.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Admin/source/repos/SE114.M21_Project/MultiExpenserv1-master/MultiExpenserv1-master/app/src/main/res/layout/activity_success.xml" value="0.19067028985507245" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
