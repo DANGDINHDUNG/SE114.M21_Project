@@ -4,18 +4,54 @@
 
 ## Chức năng ứng dụng:
 
-- Đăng   ký-Đăng   nhập  
-![Dang Ky](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/Dang_Ky.PNG)
-- Thêm   mới   Thu  
-- Thêm   mới   Chi  
-- Xem   lịch   sử   Thu/Chi  
-- Xóa/Sửa   Thu   Chi  
-- Đặt   ra   mục   tiêu   và   hoàn   thành  
-- Phần   thưởng   khi   đăng   nhập   mỗi   ngày  
-- Chia   sẻ   thành   tích   cho   bạn   bè  
-- Thống   kê  
-- Quảng cáo
+- ## Trang chủ  
+
+![TrangChu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/trang_chu.png)
+
+- ## Đăng   ký-Đăng   nhập  
+
+![DangKy](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/dang_ky.jpg)
+
+- ## Thêm mới/Xóa/Sửa Thu
+
+![Thu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/thu.jpg)  
+
+- ## Thêm   mới/Xóa/Sửa    Chi
+
+![Chi](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/chi.jpg)    
+
+- ## Xem   lịch   sử   Thu
+
+![LSThu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/lich_su_thu.jpg)  
+
+- ## Xem   lịch   sử   Chi  
+
+![LSChi](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/lich_su_chi.jpg)  
+
+- ## Đặt   ra   mục   tiêu   và   hoàn   thành  
+
+![MucTieu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/dat_muc_tieu.jpg)  
+
+- ## Xem   lịch   sử   mục tiêu
+
+![LSMucTieu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/muc_tieu.jpg)  
   
+- ## Phần   thưởng   khi   đăng   nhập   mỗi   ngày  
+
+![PhanThuong](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/phan_thuong.jpg)  
+
+- ## Chia   sẻ   thành   tích   cho   bạn   bè  
+
+![ChiaSe](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/chia_se.jpg) 
+
+- ## Thống   kê
+
+![ThongKe](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/chart.jpg)  
+
+- ## Quảng cáo
+ 
+![QuangCao](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/quang_cao.jpg)  
+
 ## Yêu cầu thiết bị:
 - Android
   - minSdkVersion: 16.0
@@ -26,8 +62,14 @@
 - Công nghệ
   - Ngôn ngữ: Java
   - Database: SqLite
+  - Android studio
 - Thư viện
   - FireBase
   - ORM
+  
 ## Database
-![DataBase](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/DataBase.PNG))
+![DataBase](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/DataBase.PNG)
+
+## Sơ đồ kiến trúc
+![kientruc](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/Kien_truc.PNG)
+![CTkienTruc](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/ct_kien_truc.PNG)
