@@ -62,6 +62,7 @@
 - Công nghệ
   - Ngôn ngữ: Java
   - Database: SqLite
+  - Android studio
 - Thư viện
   - FireBase
   - ORM
