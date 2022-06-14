@@ -154,9 +154,10 @@
         android:layout_height="39dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.239"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Description_show_expenses_in_detail"
+        app:layout_constraintVertical_bias="0.578"
         app:srcCompat="@drawable/back_bg" />
 
     <ImageView
@@ -168,5 +169,31 @@
         app:layout_constraintStart_toStartOf="@+id/back_Show_expenses_in_detail"
         app:layout_constraintTop_toTopOf="@+id/back_Show_expenses_in_detail"
         app:srcCompat="@drawable/back_txt" />
+
+    <ImageView
+        android:id="@+id/delete_btn"
+        android:layout_width="99dp"
+        android:layout_height="38dp"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Description_show_expenses_in_detail"
+        app:layout_constraintVertical_bias="0.578"
+        app:srcCompat="@drawable/save_button" />
+
+    <TextView
+        android:layout_width="82dp"
+        android:layout_height="23dp"
+        android:text="Delete"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/delete_btn"
+        app:layout_constraintEnd_toEndOf="@+id/delete_btn"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/delete_btn"
+        app:layout_constraintTop_toTopOf="@+id/delete_btn"
+        app:layout_constraintVertical_bias="0.533" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

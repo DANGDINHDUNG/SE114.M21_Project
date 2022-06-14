@@ -15,6 +15,7 @@ import android.widget.Spinner;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.components.AxisBase;
 import com.github.mikephil.charting.components.XAxis;
+import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
@@ -227,6 +228,9 @@ public class MainActivity2 extends AppCompatActivity {
         xAxis.setGranularity(1f);
         xAxis.setLabelRotationAngle(300);
         xAxis.setValueFormatter(new IndexAxisValueFormatter(labelNames));
+
+        YAxis yAxis = barChart.getAxisLeft();
+        yAxis.setAxisMinimum(0f);
 
         BarData data = new BarData(bds);
         data.setBarWidth(0.9f);

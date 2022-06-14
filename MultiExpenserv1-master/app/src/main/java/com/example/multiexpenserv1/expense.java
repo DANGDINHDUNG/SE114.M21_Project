@@ -1,8 +1,9 @@
 package com.example.multiexpenserv1;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class expense {
+public class expense implements Serializable {
     private String Title,amount,description;
     private String day,month,year;
 

@@ -3,6 +3,8 @@ package com.example.multiexpenserv1;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.media.Image;
@@ -23,6 +25,8 @@ import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.google.android.material.snackbar.Snackbar;
 
+import org.w3c.dom.Text;
+
 public class Home extends AppCompatActivity {
 
     private TextView name,balance;
@@ -31,6 +35,7 @@ public class Home extends AppCompatActivity {
     private ImageView share,newexpense,Balance_in,Goals,Gifts;
     private ImageView graph, history;
     private InterstitialAd mInterstitialAd;
+    private TextView reset;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +48,7 @@ public class Home extends AppCompatActivity {
         name=findViewById(R.id.Welcome);
         balance=findViewById(R.id.Home_Balance);
         share=findViewById(R.id.share);
+        reset=findViewById(R.id.Reset);
         newexpense=findViewById(R.id.newexpense_button);
         Balance_in=findViewById(R.id.Balance_button);
         Goals=findViewById(R.id.Goals_button);
@@ -157,6 +163,36 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Home.this,Show_Expenses.class));
+            }
+        });
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        reset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        switch (which){
+                            case DialogInterface.BUTTON_POSITIVE:
+                                SharedPreferences.Editor editor = sharedPreferences.edit();
+                                editor.clear();
+                                editor.commit();
+                                DataBaseHelper db = new DataBaseHelper(Home.this);
+                                db.Reset();
+                                db.close();
+                                startActivity(new Intent(Home.this,MainActivity.class));
+                                finish();
+                                break;
+
+                            case DialogInterface.BUTTON_NEGATIVE:
+                                //No button clicked
+                                break;
+                        }
+                    }
+                };
+                builder.setMessage("Are you sure to reset all data?").setPositiveButton("Yes", dialogClickListener)
+                        .setNegativeButton("No", dialogClickListener).show();
             }
         });
     }

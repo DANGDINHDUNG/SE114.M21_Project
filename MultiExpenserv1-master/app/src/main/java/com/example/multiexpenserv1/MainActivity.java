@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         String FirstTime=sharedPreferences.getString("FirstTimeInstalled","");
 
 
-
         if(FirstTime.equals("Yes")) {
             startActivity(new Intent(MainActivity.this,Home.class));
             finish();

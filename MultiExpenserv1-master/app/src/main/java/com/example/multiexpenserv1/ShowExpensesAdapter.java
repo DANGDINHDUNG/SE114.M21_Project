@@ -21,6 +21,7 @@ public class ShowExpensesAdapter extends RecyclerView.Adapter<ShowExpensesAdapte
     public  static  String ShowExpenseTitleKey=" com.example.multiexpenserv1.ShowExpensesAdapter.Title";
     public  static  String ShowExpenseAmountKey=" com.example.multiexpenserv1.ShowExpensesAdapter.Amount";
     public  static  String ShowExpenseDateKey=" com.example.multiexpenserv1.ShowExpensesAdapter.Date";
+    public  static  String ShowExpenseKey=" com.example.multiexpenserv1.ShowExpensesAdapter.Expense";
     public  static  String ShowExpenseDescriptionKey=" com.example.multiexpenserv1.ShowExpensesAdapter.Description";
     Context context;
 
@@ -79,6 +80,7 @@ public class ShowExpensesAdapter extends RecyclerView.Adapter<ShowExpensesAdapte
             intent.putExtra(ShowExpenseTitleKey,Title);
             intent.putExtra(ShowExpenseAmountKey,Amount);
             intent.putExtra(ShowExpenseDateKey,Date);
+            intent.putExtra(ShowExpenseKey,e);
             intent.putExtra(ShowExpenseDescriptionKey,Description);
             //Starting activity
             context.startActivity(intent);

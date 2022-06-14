@@ -98,6 +98,23 @@
         app:layout_constraintVertical_bias="0.1"
         app:srcCompat="@drawable/share_new" />
 
+    <TextView
+        android:id="@+id/Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/lustria"
+        android:text="LOGOUT"
+        android:textColor="#E4E4E1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/Welcome"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926" />
+
     <ImageView
         android:id="@+id/imageView28"
         android:layout_width="171dp"
@@ -112,19 +129,19 @@
 
     <TextView
         android:id="@+id/Welcome"
-        android:layout_width="220dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:fontFamily="@font/lustria"
         android:textColor="#E4E4E1"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView23"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintHorizontal_bias="0.064"
         app:layout_constraintStart_toEndOf="@+id/imageView23"
-        app:layout_constraintTop_toBottomOf="@+id/imageView29"
-        app:layout_constraintVertical_bias="0.629" />
+        app:layout_constraintTop_toTopOf="@+id/imageView23"
+        app:layout_constraintVertical_bias="0.25" />
 
     <TextView
         android:id="@+id/Home_Balance"

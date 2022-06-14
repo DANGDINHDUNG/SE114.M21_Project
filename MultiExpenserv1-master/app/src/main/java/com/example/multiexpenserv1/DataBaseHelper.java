@@ -8,6 +8,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteConstraintException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import androidx.annotation.Nullable;
 
@@ -58,6 +59,22 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
     }
+
+    public void Reset()
+    {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.execSQL("DROP TABLE IF EXISTS EXPENSES");
+        db.execSQL("DROP TABLE IF EXISTS GOAL");
+        db.execSQL("DROP TABLE IF EXISTS BALANCE");
+        String CreateTableExpenseStatement="CREATE TABLE EXPENSES(TITLE TEXT ,AMOUNT TEXT, DAY TEXT, MONTH TEXT, YEAR TEXT, DESCRIPTION TEXT);";
+        db.execSQL(CreateTableExpenseStatement);
+        String CreateTableBalanceStatement= "CREATE TABLE BALANCE(TITLE TEXT ,AMOUNT TEXT, DAY TEXT, MONTH TEXT, YEAR TEXT ,STATUS TEXT);";
+        db.execSQL(CreateTableBalanceStatement);
+        String CreateTableGoalStatement= "CREATE TABLE  GOAL(TITLE TEXT,AMOUNT TEXT,TYPE TEXT, DAY TEXT, MONTH TEXT,YEAR TEXT,STATUS TEXT,ID INTEGER PRIMARY KEY, AUTO INCREMENT);";
+        db.execSQL(CreateTableGoalStatement);
+        db.close();
+    }
+
     // Write funtion for expenses
     public boolean addExpenseToDB(expense obj) {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -75,6 +92,14 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         //Inserting values into the table
         insert=db.insert(EXPENSES_TABLE_NAME, null, cv);
         return insert != -1;
+    }
+
+    public boolean removeExpenseFromDB(expense obj) {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        db.delete(EXPENSES_TABLE_NAME,"TITLE=? and AMOUNT=? and DAY=? and MONTH=? and YEAR=? and DESCRIPTION=?", new String[]{obj.getTitle(), obj.getAmount(), obj.getDay(), obj.getMonth(), obj.getYear(), obj.getDescription()});
+        db.close();
+        return true;
     }
 
 
