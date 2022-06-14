@@ -83,5 +83,5 @@
 ![DataBase](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/DataBase.PNG)
 
 ## Sơ đồ kiến trúc
-![kientruc](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/Kien_truc.PNG)
+
 ![CTkienTruc](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/ct_kien_truc.PNG)
