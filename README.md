@@ -23,13 +23,14 @@
 - ## Xem   lịch   sử   Thu
 
 ![LSThu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/lich_su_thu.jpg)  
-  -Xem chi tiết lịch sử thu
-    
-    ![CTLSThu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/ct_lich_su.jpg)  
 
 - ## Xem   lịch   sử   Chi  
 
 ![LSChi](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/lich_su_chi.jpg)  
+
+    -Xem chi tiết lịch sử thu
+    
+![CTLSThu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/ct_lich_su.jpg)
 
 - ## Đặt   ra   mục   tiêu   và   hoàn   thành  
 
