@@ -12,6 +12,10 @@
 
 ![DangKy](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/dang_ky.jpg)
 
+- ## Nhập thu nhập
+
+![NhapTien](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/nhap_tien.jpg)  
+
 - ## Thêm mới/Xóa/Sửa Thu
 
 ![Thu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/thu.jpg)  
