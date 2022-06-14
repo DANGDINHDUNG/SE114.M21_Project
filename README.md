@@ -43,7 +43,10 @@
 - ## Xem   lịch   sử   mục tiêu
 
 ![LSMucTieu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/muc_tieu.jpg)  
-  
+  -Xem chi tiết lịch sử chi
+    
+![CTMucTieu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/ct_muc_tieu.jpg)
+
 - ## Phần   thưởng   khi   đăng   nhập   mỗi   ngày  
 
 ![PhanThuong](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/phan_thuong.jpg)  
