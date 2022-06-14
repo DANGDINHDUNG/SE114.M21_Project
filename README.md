@@ -77,6 +77,7 @@
 - Thư viện
   - FireBase
   - ORM
+  - MPAndroidChart v3.1.0
   
 ## Database
 ![DataBase](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/DataBase.PNG)
