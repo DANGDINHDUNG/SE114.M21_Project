@@ -28,7 +28,7 @@
 
 ![LSChi](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/lich_su_chi.jpg)  
 
-    -Xem chi tiết lịch sử thu
+    -Xem chi tiết lịch sử chi
     
 ![CTLSThu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/ct_lich_su.jpg)
 
