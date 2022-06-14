@@ -8,7 +8,7 @@
 
 ![TrangChu](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/trang_chu.png)
 
-- ## Đăng   ký-Đăng   nhập  
+- ## Đăng   ký
 
 ![DangKy](https://github.com/DANGDINHDUNG/SE114.M21_Project/blob/main/GiaodienApp/dang_ky.jpg)
 
